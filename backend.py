@@ -43,7 +43,7 @@ def download_master_file():
 
 @app.route('/')
 def home():
-    return 'wellcome my api bot creat file banner'
+    return 'Hello, World!'
 
 @app.route('/generate-json', methods=['POST'])
 def generate_json():
